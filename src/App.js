@@ -6,7 +6,7 @@ import Palette from './JS/Palette';
 function App() {
   return (
     <div className="App">
-      <Palette colors={colorsArray[0].colors} />
+      <Palette colors={colorsArray[6].colors} />
     </div>
   );
 }
