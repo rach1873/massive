@@ -1,11 +1,16 @@
-import React, { PureComponent } from 'react'
+import React, { Component } from 'react'
+import ColorBox from './ColorBox'
 
-class Palette extends PureComponent {
+class Palette extends Component {
 
     render() {
+        const colorBoxes = this.props.colors.map(color => <ColorBox background={color.name} />)
+
         return (
             <div className='Palette'>
-                <h1></h1>
+                <div className='Palette-colors'>
+                    {colorBoxes}
+                </div>
             </div>
         )
     }
