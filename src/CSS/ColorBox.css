@@ -1,0 +1,31 @@
+.ColorBox {
+  width: 20%;
+  height: 25%;
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.Copy {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 2px;
+  visibility: hidden;
+}
+
+.More {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.ColorBox:hover .Copy {
+  visibility: visible;
+}
