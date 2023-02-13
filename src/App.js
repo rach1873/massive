@@ -2,11 +2,12 @@
 import './App.css';
 import { colorsArray } from './JS/SeedColors'
 import Palette from './JS/Palette';
+import { generatePalette } from './colorsHelpers';
 
 function App() {
   return (
     <div className="App">
-      <Palette colors={colorsArray[6].colors} />
+      <Palette palette={generatePalette(colorsArray[1])} />
     </div>
   );
 }
