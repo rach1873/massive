@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import { colorsArray } from './JS/SeedColors'
 import Palette from './JS/Palette';
