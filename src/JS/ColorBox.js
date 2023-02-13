@@ -24,7 +24,7 @@ class ColorBox extends Component {
                         <h1>Copied!</h1>
                         <p>{this.props.background}</p>
                     </div>
-                    <span>{this.props.name}</span>
+                    <span className='Color-Name'>{this.props.name}</span>
                     <p className='Copy'>COPY</p>
                     <p className='More'>MORE</p>
                 </div>
