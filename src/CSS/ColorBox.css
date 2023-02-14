@@ -49,6 +49,10 @@
   position: absolute;
 }
 
+.hex-copied-value {
+  font-size: 20rem;
+}
+
 .ColorBox:hover .Copy {
   visibility: visible;
 }

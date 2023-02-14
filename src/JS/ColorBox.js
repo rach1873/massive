@@ -22,7 +22,7 @@ class ColorBox extends Component {
                     <div style={{ background: this.props.background }} className={`copy-overlay ${this.state.copied && "show"}`}></div>
                     <div className={`copy-msg ${this.state.copied && "show"}`}>
                         <h1>Copied!</h1>
-                        <p>{this.props.background}</p>
+                        <p class='hex-copied-value'>{this.props.background}</p>
                     </div>
                     <span className='Color-Name'>{this.props.name}</span>
                     <p className='Copy'>COPY</p>
